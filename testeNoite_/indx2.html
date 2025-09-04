@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Triagem Hospitalar</title>
+</head>
+
+<body>
+    <div clas="form-container">
+        <h2>Ficha de Triagem Hospitalar</h2>
+        <form action="aulaqua.php" method="POST">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="">Nome</label>
+                <input type="text" name="nome" required><br><br>
+                 <label for="">Idade</label>
+                <input type="number" name="idade"><br><br>
+                 <label for="">Sexo</label>
+                <select name="sexo" id=""><br><br>
+                    <option value="Masculino">Masculino
+                    </option>
+                    <option value="feminino">Feminino
+                    </option>
+                    <option value="outro">Outro
+                    </option>
+                </select><br><br>
+                <label for="">Data_de_Nascimento</label>
+                <input type="date" name="Data_de_Nascimento"><br><br>
+                 <label for="">CPF</label>
+                <input type="text" name="CPF"><br><br>
+                <label for="">Telefone</label>
+                <input type="number" name="Telefone"><br><br>
+                 <label for="">Endereço</label>
+                <input type="text" name="Endereco"><br><br>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Informações Médicas</legend>
+                <label for="">Sintomas:</label>
+                <input type="text" name="sintomas"><br><br>
+                <label for="">Inicio dos sintomas:</label>
+                <input type="date" name="inicio_sintomas"> <br><br>
+                <label for="">Doenças pré-existentes:</label>
+                <input type="text" name="doencas"><br><br>
+                <label for="">Uso de medicamentos:</label>
+                <input type="text" name="medicamentos"> <br><br>
+                <label for="">Alergias:</label>
+                <input type="text" name="alergias"><br><br>
+            </fieldset>
+            <fieldset>
+                    <legend>Dados Vitais</legend>
+                    <label for="">Pressão arterial:<bel>
+                    <input type="text" name="pressao"><br><br>
+                    <label for="">Temperatura (°C):</label>
+                    <input type="text" name="temperatura"> <br><br>
+                    <label for="">Frequência cardíaca (bmp):</label>
+                    <input type="text" name="cardiaca"><br><br> 
+                    <label for="">Saturação de O<sub>²</sub>(%):</label>
+                    <input type="text" name="saturacao"><br><br>
+                    </fieldset>
+            <fieldset><legend>
+                    <label for="">Observações:</label></legend>
+                    <input type="text" name="observacao"><br><br>
+             </fieldset>
+                    <button type="submit">Cadastrar Paciente</button>
+        </form>
+    </div>
+</body>
+
+</html>
