@@ -1,0 +1,10 @@
+conta = ()            
+conta = conta + (int(input("Digite o numero da conta: ")),)
+conta = conta + (input("Digite o nome do cliente: "),)
+conta = conta + (float(input("Digite o saldo da conta: ")),)
+
+print(conta)
+print("Nome do cliente:", conta[1])
+print("Saldo da conta:", conta[2])
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
